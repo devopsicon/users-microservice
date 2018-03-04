@@ -1,8 +1,10 @@
-FROM risingstack/alpine:3.4-v6.9.4-4.2.0
+FROM node:8-alpine
 
 ENV PORT 3001
 
 EXPOSE 3001
+
+RUN npm install -g tsc
 
 COPY package.json package.json
 RUN npm install
