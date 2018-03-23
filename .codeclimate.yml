@@ -1,4 +1,3 @@
-plugins:
-  tslint:
+plugins: 
+  eslint:
     enabled: true
-    config: tslint.json
