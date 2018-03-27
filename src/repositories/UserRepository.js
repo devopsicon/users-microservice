@@ -1,5 +1,5 @@
-var IUserRepository = require("./IUserRepository");
-var dataStore = require("nedb");
+import IUserRepository from "./IUserRepository";
+import dataStore from "nedb";
 
 class UserRepository extends IUserRepository {
     constructor() {
